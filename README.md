@@ -19,5 +19,5 @@ This code does exactly the same, the only difference being the use of PostgreSQL
 
 These 2 projects were done to explore the differences between MongoDB and PostgreSQL for
 1. A comparison of implementation from a developer's POV
-2. A quick and dirty performance comparison, how long does it take to process 10,000 orders through thie defined flow and into the database?
+2. A quick and dirty performance comparison, how long does it take to process 10,000 orders through the defined flow and into the database?
 
