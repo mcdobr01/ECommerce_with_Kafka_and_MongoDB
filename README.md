@@ -6,6 +6,8 @@ This was created as a learning curve for both Kafka messaging and MongoDB.
 1. You have installed and configued a local Kafka instance
 2. You have installed and configured a local PostgreSQL instance
 
+Once the code is up and running in your local environment, navigate in your browser to http://localhost:8080/api/v1/kafka/ to start order processing
+
 The idea is meant to illustrate a barebones ecommerce example flow:
 1. An order is created and submitted to the **_ordercreated_** Kafka topic
 1. **Order Created**
