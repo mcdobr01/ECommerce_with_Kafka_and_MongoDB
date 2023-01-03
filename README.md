@@ -12,4 +12,12 @@ The idea is meant to illustrate a barebones ecommerce example flow:
  a. If at any point here the count of orders created does not match the count of orders fulfilled, processing ends with an appropriate log message
  b. Otherwise, a new ordercreated event is dropped to that topic
  c. Once 10,000 orders have been processed, the app will log this, along with the start, end and elapsed times for the process.
+ 
+A similar project is here: https://github.com/mcdobr01/ECommerce_with_Kafka_and_PostgreSQL
+
+This code does exactly the same, the only difference being the use of PostgreSQL as the back-end data source.
+
+These 2 projects were done to explore the differences between MongoDB and PostgreSQL for
+1. A comparison of implementation from a developer's POV
+2. A quick and dirty performance comparison, how long does it take to process 10,000 orders through thie defined flow and into the database?
 
