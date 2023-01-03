@@ -2,6 +2,10 @@
  
 This was created as a learning curve for both Kafka messaging and MongoDB.
 
+**Assumptions**
+1. You have installed and configued a local Kafka instance
+2. You have installed and configured a local PostgreSQL instance
+
 The idea is meant to illustrate a barebones ecommerce example flow:
 1. An order is created and submitted to the **_ordercreated_** Kafka topic
 1. **Order Created**
