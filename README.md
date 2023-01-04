@@ -4,7 +4,7 @@ This was created as a learning curve for both Kafka messaging and MongoDB.
 
 **Assumptions**
 1. You have installed and configued a local Kafka instance
-2. You have installed and configured a local PostgreSQL instance
+2. You have installed and configured a local MongoDB instance
 
 Once the code is up and running in your local environment, navigate in your browser to http://localhost:8080/api/v1/kafka/ to start order processing
 
@@ -23,6 +23,7 @@ The idea is meant to illustrate a barebones ecommerce example flow:
    - If at any point here the count of orders created does not match the count of orders fulfilled, processing ends with an appropriate log message
    - Otherwise, a new **_ordercreated_** event is dropped to that topic
    - Once 10,000 orders have been processed, the app will log this, along with the start, end and elapsed times for the process.
+   - At this point processing will end normally
  
 A similar project is here: https://github.com/mcdobr01/ECommerce_with_Kafka_and_PostgreSQL
 
