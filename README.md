@@ -4,8 +4,10 @@ This was created as a learning curve for both Kafka messaging and MongoDB.
 
 **Assumptions**
 1. You have installed and configued a local Kafka instance
+   - The code will take care of creating the topics needed the first time it is run
+   - You can run the HandyDandyMultiTool class to delete all topics if you want to start fresh
 2. You have installed and configured a local MongoDB instance
-
+   - The code will take care of craeting the needed 'ecommerce' database
 Once the code is up and running in your local environment, navigate in your browser to http://localhost:8080/api/v1/kafka/ to start order processing
 
 The idea is meant to illustrate a barebones ecommerce example flow:
